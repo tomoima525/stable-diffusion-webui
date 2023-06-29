@@ -22,7 +22,7 @@ export COMMANDLINE_ARGS="--api"
 #venv_dir="venv"
 
 # script to launch to start the app
-export LAUNCH_SCRIPT="launch.py --listen --precision full --no-half"
+export LAUNCH_SCRIPT="launch.py"
 
 # install command for torch
 #export TORCH_COMMAND="pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113"
@@ -40,9 +40,9 @@ export LAUNCH_SCRIPT="launch.py --listen --precision full --no-half"
 #export BLIP_COMMIT_HASH=""
 
 # Uncomment to enable accelerated launch
-#export ACCELERATE="True"
+export ACCELERATE="True"
 
 # Uncomment to disable TCMalloc
-#export NO_TCMALLOC="True"
+export NO_TCMALLOC="True"
 
 ###########################################
